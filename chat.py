@@ -62,39 +62,4 @@ while(1):
             print("Could not request results; {0}".format(e)) 
           
         except sr.UnknownValueError: 
-            print("unknown error occured") 
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-'''
-Á = u00c1
-á = u00e1
-É = u00c9
-é = u00e9
-Í = u00cd
-í = u00ed
-Ó = u00d3
-ó = u00f3
-Ú = u00da
-ú = u00fa
-Ñ = u00d1
-ñ = u00f1
-¿ = u00bf
-'''
+            print("unknown error occured")
