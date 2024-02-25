@@ -11,7 +11,7 @@ view_options="show options"
 run="exploit"
 inf="sysinfo"
 
-cho -n "Automated Payload Generation with Bash\n"
+echo -n "Automated Payload Generation with Bash\n"
 
 expect -c "
 spawn $msfcons
