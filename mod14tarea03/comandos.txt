@@ -1,0 +1,8 @@
+docker build . -t knn
+docker tag knn emericdocker/knn:1.0.0
+docker push emericdocker/knn:1.0.0
+docker run -it -v "C:\Users\Robotech\Desktop\dataset.csv:/app/data/dataset.csv" emericdocker/knn:1.0.0
+
+
+docker stop $(docker ps -a -q)
+docker rm $(docker ps -a -q)
